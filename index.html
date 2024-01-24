@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
     <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
     <link rel="icon" href="logo.svg">
     <link rel="stylesheet" href="style.css">
@@ -16,9 +17,11 @@
         </div>
         
             <div class="input-field">
-                 <input type="text" class="input-text" placeholder="Add your task" id="input-field">
-                 <button type="submit" id="Signbutt" class="button" >Add </button>
+                 <input type="text" class="input-text" placeholder="Add your task" id="inputfield">
+                 <button type="submit" id="AddTaskbutt" class="button" >Add </button>
+                 <div class="err-msg" id="InputError">your task is empty!</div>
              </div>
+             
              
         <div class="list-text">
             <p class="text">Your Tasks..</p>
